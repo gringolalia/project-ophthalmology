@@ -995,6 +995,16 @@
   resolved "https://registry.yarnpkg.com/@vue/web-component-wrapper/-/web-component-wrapper-1.2.0.tgz#bb0e46f1585a7e289b4ee6067dcc5a6ae62f1dd1"
   integrity sha512-Xn/+vdm9CjuC9p3Ae+lTClNutrVhsXpzxvoTXXtoys6kVRX9FkueSUAqSWAyZntmVLlR4DosBV4pH8y5Z/HbUw==
 
+"@vuikit/icons@^0.8.1":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@vuikit/icons/-/icons-0.8.1.tgz#b53725e3b137ba7fc20fce792b95e957bef9410c"
+  integrity sha512-DiwUbbN8b3AyPxiW5llL0VZDOyM5P+U8YEnP+CLGzOL7KJ/bqrpPhskCDUOoDUy7+fBEYxsO7+oC0dYCXNYLRw==
+
+"@vuikit/theme@^0.8.1":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@vuikit/theme/-/theme-0.8.1.tgz#d77f4c593cd5dc0c8bdb71c4f6b3ee95c8ffa9ea"
+  integrity sha512-L7ZceIkp8XTrctBSlCDjG3MTRhogOcis+6QSE6jqLerdKHFm+EwxOtLgYRY4XaBzfh+VfNpDu9l+9mGDf+u5pw==
+
 "@webassemblyjs/ast@1.7.11":
   version "1.7.11"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.7.11.tgz#b988582cafbb2b095e8b556526f30c90d057cace"
@@ -4614,9 +4624,9 @@ lodash.uniq@^4.5.0:
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 lodash@^4.0.0, lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.15, lodash@^4.17.3, lodash@^4.17.5, lodash@~4.17.10:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 log-symbols@^2.2.0:
   version "2.2.0"
@@ -7770,10 +7780,22 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
 
+vue@^2.5.16:
+  version "2.6.12"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.12.tgz#f5ebd4fa6bd2869403e29a896aed4904456c9123"
+  integrity sha512-uhmLFETqPPNyuLLbsKz6ioJ4q7AZHzD8ZVFNATNyICSZouqP2Sz0rotWQC8UNBF6VGSCs5abnKJoStA6JbCbfg==
+
 vue@^2.6.10:
   version "2.6.10"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.10.tgz#a72b1a42a4d82a721ea438d1b6bf55e66195c637"
   integrity sha512-ImThpeNU9HbdZL3utgMCq0oiMzAkt1mcgy3/E6zWC/G6AaQoeuFdsl9nDhTDU3X1R6FK7nsIUuRACVcjI+A2GQ==
+
+vuikit@^0.8.10:
+  version "0.8.10"
+  resolved "https://registry.yarnpkg.com/vuikit/-/vuikit-0.8.10.tgz#3caeb0d8001d1af32930e31504bd63e8cd8b7ffe"
+  integrity sha512-M2gYsemUq73az1ZB5PuDvGUMzOxzOkPUEyiJE4UPzT3hZGYAprLD4tj++tbm5Aoph/T/4ZrJZE44TpZPPACPEw==
+  dependencies:
+    vue "^2.5.16"
 
 watchpack@^1.5.0:
   version "1.6.0"
